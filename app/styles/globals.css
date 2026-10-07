@@ -129,12 +129,13 @@ a {
   text-fill-color: transparent;
 }
 body {
-  background-image: url('/小白米.jpg');
+  background-image: url('/小白米.jpg'); 
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+
 body::before {
   content: '';
   position: fixed;
@@ -142,6 +143,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.75); /* 0.75 是透明度，数字越大越不透明 */
-  z-index: -1;
+  background-color: rgba(255, 255, 255, 0.75); 
+  z-index: 0;  
+  pointer-events: none; 
 }
