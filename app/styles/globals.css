@@ -151,3 +151,15 @@ main,
 .rounded-b-xl {
   background-color: rgba(255, 255, 255, 0.85) !important;
 }
+.flex-1,
+.flex-grow,
+.overflow-y-auto,
+main > div,
+main > div > div {
+  background-color: rgba(255, 255, 255, 0.75) !important;
+}
+textarea,
+input,
+button {
+  background-color: #fff !important;
+}
