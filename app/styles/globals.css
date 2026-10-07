@@ -170,3 +170,6 @@ button {
 .h-\[calc\(100vh_-_3rem\)\] {
   background-color: rgba(255, 255, 255, 0.4) !important;
 }
+div.flex-grow.flex.flex-col.overflow-y-auto {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
